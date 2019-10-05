@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ff2bef0-ccde-4e46-8005-907b385e541a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectCPApril.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controllerCP/AddChangeBoughtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controllerCP/AddChangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controllerCP/AddContractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controllerCP/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controllerCP/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controllerCP/ViewChangesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controllerCP/ViewContractsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controllerCP/ViewStatisticsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/databaseCP/AddChangeBoughtDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/databaseCP/AddChangeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/databaseCP/AddContractDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/databaseCP/ChangeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/databaseCP/ContractsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/databaseCP/DbConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/databaseCP/StatisticsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/logicCP/AddChangeBoughtLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/logicCP/AddChangeLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/logicCP/AddContractLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/logicCP/MainLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/logicCP/StatisticsLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/addChangeBoughtVIEW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/addChangeVIEW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/addContractVIEW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mainView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/viewChangesVIEW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/viewContractsVIEW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/viewStatiscticsVIEW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ProjectCPApril-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/addChangeBoughtVIEW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/addChangeVIEW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/addContractVIEW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controllerCP/AddChangeBoughtController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controllerCP/AddChangeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controllerCP/AddContractController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controllerCP/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controllerCP/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controllerCP/ViewChangesController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controllerCP/ViewChangesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controllerCP/ViewContractsController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controllerCP/ViewContractsController$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controllerCP/ViewContractsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controllerCP/ViewStatisticsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/databaseCP/AddChangeBoughtDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/databaseCP/AddChangeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/databaseCP/AddContractDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/databaseCP/ChangeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/databaseCP/ContractsDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/databaseCP/DbConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/databaseCP/StatisticsDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/logicCP/AddChangeBoughtLogic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/logicCP/AddChangeLogic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/logicCP/AddContractLogic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/logicCP/MainLogic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/logicCP/StatisticsLogic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mainView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/viewChangesVIEW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/viewContractsVIEW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/viewStatiscticsVIEW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/controllerCP/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/databaseCP/DbConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="103" selection-start-line="11" selection-start-column="103" selection-end-line="11" selection-end-column="103" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>accepted</find>
+      <find>datecha</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/javastart/hellofx/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/helloView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/javastart/mvc/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/javastart/mvc/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/javastart/mvc/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/addChangeBoughtVIEW.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/addContractVIEW.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/viewChangesVIEW.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/viewContractsVIEW.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/viewStatiscticsVIEW.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mainView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/addChangeVIEW.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/addContractController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/addChangeBoughtController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/viewChangesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/viewContractsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/viewStatisticsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/database/addChangeLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/MainLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/addChangeLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/addChangeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/AddChangeLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/AddContractController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/StatisticsLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/AddContractLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/database/AddContractDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/AddChangeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/database/StatisticsDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/ViewContractsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/database/ContractsDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/ViewChangesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/database/ChangeDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/database/AddChangeDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/AddChangeLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/database/AddChangeBoughtDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/AddChangeBoughtLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/AddChangeBoughtController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/ViewStatisticsController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controllerCP/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/database/DbConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/databaseCP/DbConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ProjectCPApril" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ProjectCPApril" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ProjectCPApril" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-215" />
+    <option name="y" value="80" />
+    <option name="width" value="1935" />
+    <option name="height" value="910" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProjectCPApril" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjectCPApril" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="ProjectCPApril" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjectCPApril" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="ProjectCPApril" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjectCPApril" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="ProjectCPApril" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjectCPApril" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="logic" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProjectCPApril" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectCPApril" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectCPApril" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectCPApril" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectCPApril" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectCPApril" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectCPApril" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectCPApril" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectCPApril" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectCPApril" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectCPApril" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectCPApril" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="controllerCP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectCPApril" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectCPApril" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="databaseCP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectCPApril" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectCPApril" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="logicCP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectCPApril" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectCPApril" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561330646945" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\newto\IdeaProjects\ProjectCPApril\src\main\resources" />
+      <recent name="C:\Users\newto\IdeaProjects\ProjectCPApril\src\main\java\com\logic" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.controllerCP.Main" />
+      <module name="ProjectCPApril" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.logicCP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ff2bef0-ccde-4e46-8005-907b385e541a" name="Default Changelist" comment="" />
+      <created>1554425038221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554425038221</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23020135" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986577" weight="0.1713881" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5013423" side_tool="true" weight="0.20679887" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32577905" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3805369" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19060403" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37393767" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/viewStatiscticsVIEW.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/viewContractsVIEW.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/viewChangesVIEW.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/addContractVIEW.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/addChangeBoughtVIEW.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mainView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/addChangeVIEW.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="85" lean-forward="true" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/database/addChangeLogic.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11.0.1/javafx-controls-11.0.1-win.jar!/javafx/scene/control/Alert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controllerCP/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/databaseCP/AddContractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logicCP/AddContractLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1243">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controllerCP/AddContractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="74" column="43" selection-start-line="73" selection-start-column="8" selection-end-line="74" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controllerCP/AddChangeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="59" column="40" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="59" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logicCP/StatisticsLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controllerCP/ViewContractsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="214" column="5" lean-forward="true" selection-start-line="207" selection-start-column="4" selection-end-line="214" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/databaseCP/ContractsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="122" column="57" lean-forward="true" selection-start-line="122" selection-start-column="57" selection-end-line="122" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controllerCP/ViewChangesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/databaseCP/ChangeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logicCP/AddChangeLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="89" column="119" selection-start-line="89" selection-start-column="119" selection-end-line="89" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logicCP/AddChangeBoughtLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="45" column="49" lean-forward="true" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/databaseCP/AddChangeBoughtDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/databaseCP/AddChangeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="36" column="68" lean-forward="true" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controllerCP/AddChangeBoughtController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="107" column="44" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/databaseCP/StatisticsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controllerCP/ViewStatisticsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="128" column="115" selection-start-line="128" selection-start-column="115" selection-end-line="128" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logicCP/MainLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controllerCP/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/databaseCP/DbConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="103" selection-start-line="11" selection-start-column="103" selection-end-line="11" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+  </component>
+</project>

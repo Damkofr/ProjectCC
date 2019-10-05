@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllerCP.AddChangeBoughtController">
+   <children>
+      <DatePicker fx:id="bhtDatePicker" layoutX="14.0" layoutY="71.0" prefHeight="26.0" prefWidth="138.0" />
+      <Spinner fx:id="fromHourSpinner" layoutX="197.0" layoutY="71.0" prefHeight="26.0" prefWidth="56.0" />
+      <Spinner fx:id="tohourSpinner" layoutX="278.0" layoutY="71.0" prefHeight="26.0" prefWidth="56.0" />
+      <Spinner fx:id="amountSpinner" layoutX="387.0" layoutY="71.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="forWhoFiled" layoutX="14.0" layoutY="200.0" />
+      <RadioButton fx:id="cashRadioButton" layoutX="197.0" layoutY="183.0" mnemonicParsing="false" text="Cash" />
+      <RadioButton fx:id="salaryRadioButton" layoutX="197.0" layoutY="217.0" mnemonicParsing="false" text="Salary" />
+      <RadioButton fx:id="boughtRadioButton" layoutX="387.0" layoutY="183.0" mnemonicParsing="false" text="Bought" />
+      <RadioButton fx:id="soldRadioButton" layoutX="387.0" layoutY="217.0" mnemonicParsing="false" text="Sold" />
+      <Label layoutX="43.0" layoutY="35.0" text="Date Change">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="211.0" layoutY="36.0" text="From" />
+      <Label layoutX="293.0" layoutY="36.0" text="To" />
+      <Label layoutX="422.0" layoutY="36.0" text="Amount" />
+      <Label layoutX="56.0" layoutY="163.0" text="For Who">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="143.0" text="When Get">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="404.0" layoutY="143.0" text="Bought/Sold">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="statusLabel" layoutX="43.0" layoutY="302.0" prefHeight="27.0" prefWidth="409.0" text="WAIT FOR ADD CHANGE" textFill="#06f015">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="465.0" layoutY="269.0" mnemonicParsing="false" onAction="#actionAfterClick" prefHeight="66.0" prefWidth="98.0" text="ADD CHANGE" />
+   </children>
+</AnchorPane>

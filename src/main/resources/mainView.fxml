@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllerCP.MainController">
+   <children>
+      <Button fx:id="addChangeMainButton" layoutX="31.0" layoutY="45.0" mnemonicParsing="false" onAction="#chooseViewAction" prefHeight="70.0" prefWidth="150.0" text="Add Change" />
+      <Button fx:id="viewChangesButton" layoutX="31.0" layoutY="283.0" mnemonicParsing="false" onAction="#chooseViewAction" prefHeight="70.0" prefWidth="150.0" text="View Changes" />
+      <Button fx:id="addChangeBoughtButton" layoutX="217.0" layoutY="45.0" mnemonicParsing="false" onAction="#chooseViewAction" prefHeight="70.0" prefWidth="150.0" text="Change Bought/Sold" />
+      <Button fx:id="viewContractsButton" layoutX="225.0" layoutY="283.0" mnemonicParsing="false" onAction="#chooseViewAction" prefHeight="70.0" prefWidth="150.0" text="View Contracts" />
+      <Button fx:id="addContractButton" layoutX="403.0" layoutY="45.0" mnemonicParsing="false" onAction="#chooseViewAction" prefHeight="70.0" prefWidth="150.0" text="Add Contract" />
+      <Button fx:id="viewStatisticsButton" layoutX="403.0" layoutY="283.0" mnemonicParsing="false" onAction="#chooseViewAction" prefHeight="70.0" prefWidth="150.0" text="View Statistics" />
+   </children>
+</AnchorPane>
